@@ -240,7 +240,7 @@
 
     <section class="title-block">
       <h1>Book your mountain trip</h1>
-      <p>Please provide the details for each pass holder and choose shared or private activities for the family.</p>
+      <p>Please provide the details for each pass holder and choose shared or private activities for the group.</p>
     </section>
 
     <section class="trip-meta">
@@ -259,13 +259,12 @@
         <strong>Children</strong>
         <div class="meta-value">1</div>
       </div>
-      <div class="meta-inline">
-        <strong>Trip type</strong>
-        <div class="meta-value">Family</div>
+      <div>
+       &nbsp;
       </div>
       <div class="meta-note">
         <span>ℹ️</span>
-        <span>Each pass must be assigned to a person. Private lessons are per person. Group lessons can be shared by selected family members on the same time slot.</span>
+        <span>Each pass must be assigned to a person. Private lessons are per person. Group lessons can be shared by selected group members on the same time slot.</span>
       </div>
     </section>
 
@@ -329,7 +328,6 @@
                   <input type="radio" name="lesson-adult1" value="none" checked />
                   <div class="radio-copy">
                     <strong>No lesson</strong>
-                    <span>Keep this family member out of lessons for now.</span>
                   </div>
                 </label>
                 <label class="radio-line">
@@ -343,7 +341,7 @@
                   <input type="radio" name="lesson-adult1" value="group" />
                   <div class="radio-copy">
                     <strong>Group lesson</strong>
-                    <span>This person joins the family group lesson configured above.</span>
+                    <span>This person joins the group lesson configured below.</span>
                   </div>
                 </label>
               </div>
@@ -363,7 +361,7 @@
               </div>
 
               <div class="group-badge" data-group-badge>
-                <strong>Assigned to family group lesson</strong>
+                <strong>Assigned to group lesson</strong>
                 <div id="badge-adult1-copy" class="small-muted" style="margin-top:8px;margin-bottom:0;">No shared lesson configured yet.</div>
               </div>
             </div>
@@ -419,7 +417,6 @@
                   <input type="radio" name="lesson-adult2" value="none" checked />
                   <div class="radio-copy">
                     <strong>No lesson</strong>
-                    <span>No instruction selected yet.</span>
                   </div>
                 </label>
                 <label class="radio-line">
@@ -433,7 +430,7 @@
                   <input type="radio" name="lesson-adult2" value="group" />
                   <div class="radio-copy">
                     <strong>Group lesson</strong>
-                    <span>This person joins the family group lesson configured above.</span>
+                    <span>This person joins the group lesson configured below.</span>
                   </div>
                 </label>
               </div>
@@ -444,8 +441,8 @@
                 </div>
               </div>
               <div class="group-badge" data-group-badge>
-                <strong>Assigned to family group lesson</strong>
-                <div id="badge-adult2-copy" class="small-muted" style="margin-top:8px;margin-bottom:0;">No shared lesson configured yet.</div>
+                <strong>Assigned to group lesson</strong>
+                <div id="badge-adult2-copy" class="small-muted" style="margin-top:8px;margin-bottom:0;">No group lesson configured yet.</div>
               </div>
             </div>
           </div>
@@ -504,7 +501,7 @@
                   <input type="radio" name="lesson-child1" value="group" />
                   <div class="radio-copy">
                     <strong>Group lesson</strong>
-                    <span>This child joins the family group lesson configured above.</span>
+                    <span>This child joins the group lesson configured below (Terms may apply).</span>
                   </div>
                 </label>
               </div>
@@ -515,23 +512,23 @@
                 </div>
               </div>
               <div class="group-badge" data-group-badge>
-                <strong>Assigned to family group lesson</strong>
-                <div id="badge-child1-copy" class="small-muted" style="margin-top:8px;margin-bottom:0;">No shared lesson configured yet.</div>
+                <strong>Assigned to group lesson</strong>
+                <div id="badge-child1-copy" class="small-muted" style="margin-top:8px;margin-bottom:0;">No group lesson configured yet.</div>
               </div>
             </div>
           </div>
         </div>
 		
 		    <div class="person-card" style="padding:20px 24px;">
-          <div style="font-size:20px;font-weight:800;margin-bottom:8px;">Family group lesson</div>
-          <div class="small-muted">Step 1: select the family members who will participate in a shared lesson.</div>
+          <div style="font-size:20px;font-weight:800;margin-bottom:8px;">Group lesson</div>
+          <div class="small-muted">Step 1: select the group members who will participate in a shared lesson.</div>
           <div class="member-list" style="margin-top:10px;">
-            <label class="member-item"><input type="checkbox" class="inline-group-participant" value="adult1" /> <div><strong>Adult 1</strong><span>Select for group lesson</span></div></label>
-            <label class="member-item"><input type="checkbox" class="inline-group-participant" value="adult2" /> <div><strong>Adult 2</strong><span>Select for group lesson</span></div></label>
-            <label class="member-item"><input type="checkbox" class="inline-group-participant" value="child1" /> <div><strong>Child 1</strong><span>Select for group lesson</span></div></label>
+            <label class="member-item"><input type="checkbox" class="inline-group-participant" value="adult1" /> <div><strong>Adult 1</strong>&nbsp;<span>Select for group lesson</span></div></label>
+            <label class="member-item"><input type="checkbox" class="inline-group-participant" value="adult2" /> <div><strong>Adult 2</strong>&nbsp;<span>Select for group lesson</span></div></label>
+            <label class="member-item"><input type="checkbox" class="inline-group-participant" value="child1" /> <div><strong>Child 1</strong>&nbsp;<span>Select for group lesson</span></div></label>
           </div>
           <div class="button-row" style="margin-top:16px;">
-            <button class="btn-ghost" id="openGroupFromInline" type="button">+ Create or edit family group lesson</button>
+            <button class="btn-ghost" id="openGroupFromInline" type="button">+ Create or edit group lesson</button>
           </div>
         </div>
 
@@ -570,7 +567,7 @@
           </div>
 
           <div class="summary-note" id="group-summary-note">
-            No family group lesson configured yet. Select the participants first, then click <strong>Create or edit family group lesson</strong>.
+            No group lesson configured yet. Select the participants first, then click <strong>Create or edit group lesson</strong>.
           </div>
 
           <div style="margin-top:16px">
@@ -582,11 +579,11 @@
   </div>
 
   <div class="drawer-backdrop" id="groupDrawerBackdrop" aria-hidden="true">
-    <aside class="drawer" aria-label="Configure family group lesson">
+    <aside class="drawer" aria-label="Configure group lesson">
       <div class="drawer-header">
         <div>
-          <h3>Configure family group lesson</h3>
-          <p>Choose the already selected participants, then set one shared discipline, one level and one common slot.</p>
+          <h3>Configure group lesson</h3>
+          <p>Choose the already selected participants, then set one shared discipline, one level and one time slot.</p>
         </div>
         <button class="icon-btn" id="closeDrawer" type="button">✕</button>
       </div>
@@ -594,9 +591,9 @@
       <div class="drawer-section">
         <h4>1. Confirm participants</h4>
         <div class="member-list">
-          <label class="member-item"><input type="checkbox" value="adult1" class="group-participant" /> <div><strong>Adult 1</strong><span>Usually the booking contact</span></div></label>
-          <label class="member-item"><input type="checkbox" value="adult2" class="group-participant" /> <div><strong>Adult 2</strong><span>Optional participant</span></div></label>
-          <label class="member-item"><input type="checkbox" value="child1" class="group-participant" /> <div><strong>Child 1</strong><span>Can join the family lesson</span></div></label>
+          <label class="member-item"><input type="checkbox" value="adult1" class="group-participant" /> <div><strong>Adult 1</strong>&nbsp;<span>Usually the booking contact</span></div></label>
+          <label class="member-item"><input type="checkbox" value="adult2" class="group-participant" /> <div><strong>Adult 2</strong><span></span></div></label>
+          <label class="member-item"><input type="checkbox" value="child1" class="group-participant" /> <div><strong>Child 1</strong><span></span></div></label>
         </div>
       </div>
 
@@ -637,7 +634,7 @@
 
       <div class="drawer-footer">
         <button class="btn-secondary" id="cancelDrawer" type="button">Cancel</button>
-        <button class="btn" id="saveGroupLesson" type="button">Save family group lesson</button>
+        <button class="btn" id="saveGroupLesson" type="button">Save group lesson</button>
       </div>
     </aside>
   </div>
@@ -718,7 +715,7 @@
         return;
       }
       preview.innerHTML = `
-        <strong>Shared family lesson preview</strong><br>
+        <strong>Shared lesson preview</strong><br>
         Participants: ${names.join(', ')}<br>
         Discipline: ${groupLessonState.discipline}<br>
         Level: ${groupLessonState.level}<br>
@@ -792,7 +789,7 @@
       if (groupLessonState.participants.length > 0) {
         const groupRow = document.createElement('div');
         groupRow.className = 'summary-row';
-        groupRow.innerHTML = `<strong>Family group ${groupLessonState.discipline} lesson</strong><span>${groupLessonState.participants.length} participants</span>`;
+        groupRow.innerHTML = `<strong>Group ${groupLessonState.discipline} lesson</strong><span>${groupLessonState.participants.length} participants</span>`;
         dynamicProducts.appendChild(groupRow);
 
         const metaRow = document.createElement('div');
@@ -806,16 +803,16 @@
         dynamicProducts.appendChild(chipRow);
 
         groupSummaryNote.innerHTML = `
-          <strong>How the family books a shared lesson on this page</strong><br>
-          1. Select the participants in the <strong>Family group lesson</strong> block.<br>
-          2. Click <strong>Create or edit family group lesson</strong>.<br>
+          <strong>How the group books a shared lesson on this page</strong><br>
+          1. Select the participants in the <strong>group lesson</strong> block.<br>
+          2. Click <strong>Create or edit group lesson</strong>.<br>
           3. Choose one discipline, one level and one shared slot.<br>
-          4. Save, and the lesson is linked back to the selected family members and the order summary.
+          4. Save, and the lesson is linked back to the selected members and the order summary.
         `;
 
         total += groupLessonState.participants.length * prices.groupLessonPerParticipant;
       } else {
-        groupSummaryNote.innerHTML = 'No family group lesson configured yet. Select the participants first, then click <strong>Create or edit family group lesson</strong>.';
+        groupSummaryNote.innerHTML = 'No group lesson configured yet. Select the participants first, then click <strong>Create or edit group lesson</strong>.';
       }
 
       totalPrice.textContent = `€${total.toFixed(2)}`;
@@ -928,7 +925,7 @@
 
     document.getElementById('saveGroupLesson').addEventListener('click', () => {
       if (!groupLessonState.participants.length) {
-        alert('Please select at least one participant for the family group lesson.');
+        alert('Please select at least one participant for the group lesson.');
         return;
       }
       syncInlineSelectors();
